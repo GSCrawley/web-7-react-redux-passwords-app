@@ -366,6 +366,16 @@ Add a button that does this within the render method:
   }}>Save</button>
 </div>
 ```
+## Showing your passwords
+
+go back to App.js
+
+add the following to the top of the page: 
+```import PasswordList from './password-list';
+```
+```
+then make sure to add <PasswordList /> in your render method between <Provider >
+```
 
 ## Testing your work
 
