@@ -372,10 +372,11 @@ go back to App.js
 
 add the following to the top of the page: 
 
-import PasswordList from './password-list';
+```import PasswordList from './password-list';
+```
 
-
-then make sure to add <PasswordList /> in your render method between <Provider >
+then add 
+```<PasswordList /> in your render method between <Provider >
 ```
 
 ## Testing your work
