@@ -368,16 +368,12 @@ Add a button that does this within the render method:
 ```
 ## Showing your passwords
 
-go back to App.js
+go back to App.js and add the following to the top of the page: 
 
-add the following to the top of the page: 
+import PasswordList from './password-list';
 
-```import PasswordList from './password-list';
-```
+then add <PasswordList /> in your render method between the <Provider > div
 
-then add 
-```<PasswordList /> in your render method between <Provider >
-```
 
 ## Testing your work
 
