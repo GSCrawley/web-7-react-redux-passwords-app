@@ -372,7 +372,7 @@ go back to App.js and add the following to the top of the page:
 
 import PasswordList from './password-list';
 
-then add <PasswordList /> in your render method between the <Provider > div
+then add ```<PasswordList /> in your render method between the <Provider > div```
 
 
 ## Testing your work
